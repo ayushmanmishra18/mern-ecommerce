@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-whatsapp-dark {
+    background-color: #111B21;
+  }
+}
+
+body {
+  @apply bg-whatsapp-dark text-white;
+}
